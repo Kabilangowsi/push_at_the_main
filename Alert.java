@@ -18,7 +18,7 @@ public class Alert {
 
 		driver.findElement(By.xpath("//button[@id='alertButton']")).click();
 		driver.switchTo().alert().accept();
-		Thread.sleep(5000);
+		Thread.sleep(50000);
 		driver.findElement(By.xpath("(//button[text()='Click me'])[2]")).click();
 		driver.switchTo().alert().accept();
 		driver.findElement(By.id("confirmButton")).click();
